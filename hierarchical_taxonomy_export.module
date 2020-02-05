@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains hierarchical_taxonomy_export.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function hierarchical_taxonomy_export_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the hierarchical_taxonomy_export module.
+    case 'help.page.hierarchical_taxonomy_export':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Export Taxonomy Vocabularies Hierarchically as CSV Files.') . '</p>';
+      return $output;
+
+    default:
+  }
+}

@@ -1,0 +1,9 @@
+hierarchical_taxonomy_export.form:
+  path: 'admin/hierarchical-taxonomy-export'
+  defaults:
+    _form: '\Drupal\hierarchical_taxonomy_export\Form\HierarchicalTaxonomyExportForm'
+    _title: 'Hierarchical Taxonomy Export'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE

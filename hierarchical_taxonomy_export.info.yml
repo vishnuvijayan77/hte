@@ -1,0 +1,7 @@
+name: 'Hierarchical Taxonomy Export'
+type: module
+description: 'Export Taxonomy Vocabularies Hierarchically as CSV Files.'
+core: 8.x
+package: 'Export'
+dependencies:
+  - taxonomy
