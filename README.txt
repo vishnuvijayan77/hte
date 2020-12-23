@@ -7,16 +7,14 @@ CONTENTS OF THIS FILE
   * Usage
   * Maintainers
 
-
-
 INTRODUCTION
 ------------
 
   Export and download taxonomy vocabularies as CSV files
 
-    * Download the entire vocabulary hierarchcally.
+    * Download the entire vocabulary hierarchically.
     * Download the vocabulary upto the desired term depth.
-    * This module exports only upto third level of the vocabulary tree.
+    * This module exports only upto fourth level of the vocabulary tree.
 
 REQUIREMENTS
 ------------
@@ -35,7 +33,8 @@ USAGE
 -----
 
   * After installing the module, go to /admin/hierarchical-taxonomy-export
-  * Select the vocabulary and its term depth that needs to be exported and click 'Export as CSV'
+  * Select the vocabulary and its term depth that needs to be exported
+	and click 'Export as CSV'
   * The generated CSV file can be downloaded.
  
 

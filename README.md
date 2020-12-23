@@ -1,2 +1,0 @@
-# hte
-Hierarchical Taxonomy Export
